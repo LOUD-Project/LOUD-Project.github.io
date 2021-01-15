@@ -1,0 +1,31 @@
+/*
+* Universal styling.
+* Author: Rat Circus
+*/
+
+@font-face {
+	font-family: Zeroes-3;
+	src: url("/fonts/zeroes_3.ttf");
+}
+
+* {
+	font-family: "Arial";
+}
+
+main {
+	margin-top: 21px;
+}
+
+h1, h2, h3 {
+	text-align: center;
+	font-family: Zeroes-3, sans-serif;
+	font-weight: lighter;
+}
+
+nav, article {
+	text-align: center;
+}
+
+nav {
+	padding: 8px;
+}

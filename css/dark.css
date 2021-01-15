@@ -1,0 +1,15 @@
+/*
+* Dark mode styling.
+* Author: Rat Circus
+*/
+
+html {
+	background-color: #27455b;
+	color: #e7e7e7;
+}
+
+a:link { color: azure; }
+a:visited { color: #717c7d; }
+a:focus { color: #00487c; }
+a:hover { color: #007dd8; }
+a:active { color: #007dd8; }
