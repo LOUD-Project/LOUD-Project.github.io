@@ -13,3 +13,39 @@ a:visited { color: #717c7d; }
 a:focus { color: #00487c; }
 a:hover { color: #007dd8; }
 a:active { color: #007dd8; }
+
+#changelog-container {
+	padding: 0 10%;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.changelog-header {
+	background-color: #1d3241;
+	color: #d8d8d8;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	font-family: Zeroes-3;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .changelog-header:hover {
+	background-color: #1b2f3d;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.changelog-entry {
+	text-align: left;
+	padding: 2%;
+	display: none;
+	overflow: hidden;
+	background-color: #33393d;
+}
+
+.changelog-entry > p {
+	margin: 2px 0px;	
+}
