@@ -14,6 +14,19 @@ a:focus { color: #00487c; }
 a:hover { color: #007dd8; }
 a:active { color: #007dd8; }
 
+button {
+	background-color: #335c79;
+	border: 1px solid #1d3241;
+	color: #b5c8ca;
+	outline: #00487c;
+	padding: 4px;
+	transition-duration: .2s;
+}
+
+button:hover {
+	background-color: #396686;
+}
+
 #changelog-container {
 	padding: 0 10%;
 }
@@ -27,6 +40,7 @@ a:active { color: #007dd8; }
 	width: 100%;
 	border: none;
 	text-align: left;
+	transition-duration: .2s;
 	outline: none;
 	font-size: 15px;
 	font-family: Zeroes-3;

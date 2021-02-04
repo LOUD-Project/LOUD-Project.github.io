@@ -29,3 +29,8 @@ nav, article {
 nav {
 	padding: 8px;
 }
+
+#changelog-btns {
+	text-align: center;
+	padding: 1%;
+}
