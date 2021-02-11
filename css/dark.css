@@ -8,6 +8,15 @@ html {
 	color: #e7e7e7;
 }
 
+nav {
+	margin: 1rem auto;
+	width: 50%;
+	border-width: 2px;
+	border-style: solid;
+	border-image: linear-gradient(to right, #001526, #007dd8, #001526) 1;
+	padding: 4px;
+}
+
 a:link { color: azure; }
 a:visited { color: #717c7d; }
 a:focus { color: #00487c; }
