@@ -4,7 +4,8 @@
 */
 
 html {
-	background-color: #27455b;
+	height: 100%;
+	background-image: linear-gradient(#001526, #007dd8);
 	color: #e7e7e7;
 }
 
